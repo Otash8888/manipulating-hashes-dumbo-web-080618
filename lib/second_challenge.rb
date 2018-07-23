@@ -7,9 +7,10 @@ def second_challenge
   }
 
  multi_arr = groceries.values 
-
-multi_arr.each do ||
+single_arr = []
+multi_arr.each do |element|
+	single_arr.concat(element)
 end
   
-
+single_arr
 end
