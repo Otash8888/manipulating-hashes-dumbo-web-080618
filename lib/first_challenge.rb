@@ -17,7 +17,7 @@ def first_challenge
    value1.each do |key2,value2|
    if key2 == :favorite_icecream_flavors
      value2.delete_if? do |element|
-       element ==
+       element == "strawberry"
    end
    
  end
